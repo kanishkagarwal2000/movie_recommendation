@@ -1,0 +1,40 @@
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    padding-top: 150px;
+    background-color:#000;
+    background-image: url("years-for-movies.jpg");
+}
+#searchbox{
+    width: 50%;
+    margin: auto;
+}
+#searchbox input,button{
+    width: 75%;
+    border: 2px solid white;
+    border-right: 0px;
+    font-size: 18px;
+    padding: 12px;
+    background: black;
+    color: white;
+}
+#searchbox button{
+    width: 25%;
+    background: #eee;
+    color: black;
+    float: right;
+    border-left: 0px;
+}
+
+#searchbox button:hover{
+    opacity: .8;
+}
+#searchbox input:hover{
+    opacity: .8;
+}
