@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Liked by you:</title>
+    <style>
+        body{
+            background-image: url("https://i1.wp.com/codemyui.com/wp-content/uploads/2016/11/pure-css-snow-animation.gif?fit=880%2C440&ssl=1");
+        }
+        h1{
+            color: bisque;
+        }
+        .op{
+            height: 500px;
+            width: 30%;
+            color: burlywood;
+            font: Papyrus;
+            margin-top:8%;
+            margin-left:35%;
+            font-size: large;
+            background-image: ;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Movies Recommended:</h1>
+    <div class="op">
+        {% for movie in output %}
+            <p>{{movie}}</p>
+        {% endfor %}
+    </div>
+</body>
+</html>
