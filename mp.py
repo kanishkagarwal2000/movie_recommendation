@@ -65,7 +65,7 @@ def recommender(movie_by_user):
 
 
 
-print( recommender('Star Wars: Episode VII - The Force Awakens'))
+#print( recommender('Star Wars: Episode VII - The Force Awakens'))
 
 
 
@@ -86,4 +86,4 @@ def predict():
     o=recommender(user_liking)  
     return render_template('show.html',output=o)
 if __name__ == '__main__':
-   app.run(debug=True)
+   app.run(host="0.0.0.0",debug=True)
